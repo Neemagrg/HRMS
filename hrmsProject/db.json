@@ -1,0 +1,26 @@
+{
+  "employees": [
+    {
+      "name": "Neema Grg",
+      "email": "ng123@gmail.com",
+      "department": "marketing",
+      "designation": "senior",
+      "userType": "hr",
+      "salary": "10000",
+      "password": "123",
+      "date": "2025-07-10",
+      "id": "0491"
+    },
+    {
+      "name": "rushika",
+      "email": "rus123@gmail.com",
+      "department": "marketing",
+      "designation": "midlevel",
+      "userType": "manager",
+      "salary": "200000",
+      "password": "1234",
+      "date": "2025-07-11",
+      "id": "df53"
+    }
+  ]
+}
