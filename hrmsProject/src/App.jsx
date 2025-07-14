@@ -17,7 +17,10 @@ function App() {
             <Home />
           </ProtectedRoute>}
           >
-        <Route path="employee" element={<EmployeeForm />} />
+        <Route path="employee" element={
+          <ProtectedRoute allowedRoles={["hr", "manager", "admin"]}>
+            <EmployeeForm />
+          </ProtectedRoute>} />
         <Route path="dashboard" element={<Dashboard/>} />
         </Route>
       </Routes>

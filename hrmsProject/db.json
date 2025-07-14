@@ -21,6 +21,17 @@
       "password": "1234",
       "date": "2025-07-11",
       "id": "df53"
+    },
+    {
+      "name": "Rohan",
+      "email": "rohan123@gmail.com",
+      "department": "engineering",
+      "designation": "senior",
+      "userType": "employee",
+      "salary": "80000",
+      "password": "rohan",
+      "date": "2025-07-14",
+      "id": "05e9"
     }
   ]
 }
