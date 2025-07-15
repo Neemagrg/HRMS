@@ -32,6 +32,17 @@
       "password": "rohan",
       "date": "2025-07-14",
       "id": "05e9"
+    },
+    {
+      "name": "jasmine",
+      "email": "jas123@gmail.com",
+      "department": "sales",
+      "designation": "midlevel",
+      "userType": "employee",
+      "salary": "50000",
+      "password": "jasmine",
+      "date": "2025-07-15",
+      "id": "587c"
     }
   ]
 }
