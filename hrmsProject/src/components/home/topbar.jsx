@@ -1,5 +1,6 @@
 import { FaUsersGear } from "react-icons/fa6";
 import { FaSearch, FaBell, FaUser } from "react-icons/fa";
+import LogoutButton from "../utils/logout";
 export default function Topbar() {
     const basecss = " flex cursor-pointer text-2xl";
     return (
@@ -12,6 +13,7 @@ export default function Topbar() {
                 <FaSearch className={`${basecss}`}/>
                 <FaBell className={`${basecss}`}/>
                 <FaUser className={`${basecss}`}/>
+                <LogoutButton className={`${basecss}`}/>
             </div>
         </div>
     )
